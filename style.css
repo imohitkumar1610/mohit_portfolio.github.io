@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 45px;
+  width: 100vw;
+  background: #1d4350;
+  background: -webkit-linear-gradient(to right, #a43931, #1d4350);
+  background: linear-gradient(to right, #a43931, #1d4350);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  position: fixed;
+}
+
+.tabs ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  margin-right: 10px;
+}
+.tabs ul li {
+  padding: 12px;
+}
+.tabs ul li a {
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+.tabs ul li a:hover {
+  color: rgb(24, 21, 21);
+  border-bottom: 0.1rem solid rgb(24, 21, 21);
+  padding-bottom: 0.2rem;
+  font-size: 18px;
+  transition:  .2s ease;
+}
+.logo {
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: yellow;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.logo span {
+  color: rgb(129, 201, 114);
+  font-weight: 800;
+}
+.hero{
+  height: 500px;
+  width: 100%;
+  background: #3a6186;
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+background: linear-gradient(to right, #89253e, #3a6186);
+
+}
